@@ -1,0 +1,78 @@
+.mambersSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+
+.headingSec{
+    width: 100%;
+} 
+.headingSec h1{
+    text-align: left;
+    margin: 1.2rem 2rem;
+}
+
+.members__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: -2px 2px 16px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    margin: 15px 10px;
+    width: 95%;
+    height: 200px;
+}
+
+.member img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.member .memberDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0%;
+    margin-left: 15px;
+}
+
+.member .memberDetails h2{
+    font-size: 20px;
+    margin-bottom: 0%;
+}
+.member .memberDetails p{
+    text-align: left;
+    font-size: 15px;
+}
+.member .memberDetails a{
+    text-decoration: none;
+    color: green;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 350px) {
+    .member .memberDetails h2{
+        font-size: 15px;
+        margin-bottom: 0%;
+    }
+    .member .memberDetails p{
+        font-size: 12px;
+    }
+}

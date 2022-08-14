@@ -1,0 +1,48 @@
+.home {
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.greetings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-left: 2rem;
+}
+
+.greetingHeading {
+    margin: 1px 10px;
+}
+
+.greetingSubHeading {
+    margin: 1px 10px;
+    text-align: start;
+}
+
+.dashboardMainSection {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.leftSection {
+    flex: 3;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 1.7rem;
+}
+
+.rightSection {
+    flex: 2;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 1.7rem;
+}
+
+@media screen and (max-width: 850px) {
+    .dashboardMainSection {
+        flex-direction: column;
+    }
+}
